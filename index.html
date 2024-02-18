@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLaveros a tu estilo</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="Downloads/5237c58fa5f44c3f0d1d02dcad0fa6f9.ico/android-icon-36x36.png">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #1d1c1d;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header form {
+            display: flex;
+            align-items: center;
+        }
+        header input[type="text"] {
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            margin-right: 10px;
+            width: 50%;
+        }
+        header button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33.333% - 20px);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .product p {
+            margin-bottom: 0;
+        }
+        .cart {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            width: 50px;
+            height: 50px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .cart:hover {
+            background-color: #ce0404;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Productos</h1>
+        <form>
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </form>
+        
+    </header>
+    <main>
+        <div class="product">
+            <h2>Producto 1</h2>
+            <img src="Downloads/DSC03093-scaled.jpg" alt="Producto 1" width="200">
+            <p>llaveros colombianos🤑</p>
+            <strong>$5.000</strong>
+        </div>
+        <div class="product">
+            <h2>Producto 2</h2>
+            <img src="https://via.placeholder.com/150" alt="Producto 2" width="150">
+            <p>Descripción de producto 2</p>
+            <strong>$5.000</strong>
+        </div>
+        <div class="product">
+            <h2>Producto 2</h2>
+            <img src="https://via.placeholder.com/150" alt="Producto 3" width="150">
+            <p>Descripción de producto 3</p>
+            <strong>$5.000</strong>
+        </div>
+        <div class="product">
+            <h2>Producto 2</h2>
+            <img src="https://via.placeholder.com/150" alt="Producto 4" width="150">
+            <p>Descripción de producto 4</p>
+            <strong>$7.000</strong>
+        </div>
+        <div class="product">
+            <h2>Producto 2</h2>
+            <img src="https://via.placeholder.com/150" alt="Producto 5" width="150">
+            <p>Descripción de producto 5</p>
+            <strong>$7.000</strong>
+        </div>
+        <div class="product">
+            <h2>Producto 2</h2>
+            <img src="https://via.placeholder.com/150" alt="Producto 6" width="150">
+            <p>Descripción de producto 6</p>
+            <strong>$7.000</strong>
+        </div>
+        <div calss="text">
+           Fin del catalogo
+        </div>
+        npm install -g http-server
